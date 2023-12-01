@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Rooming</string>
+    <string name="rooming_AI_text">Rooming AI</string>
+    <string name="register_text">Register</string>
+    <string name="login_text">Login</string>
+    <string name="Username_text">Username</string>
+    <string name="email_text">Email</string>
+    <string name="password_text">Password</string>
+    <string name="rePassword_text">Re-Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="edit_new_email">Edit new Email</string>
+    <string name="current_password">Current Password:</string>
+    <string name="edit_new_password">Edit new Password</string>
+    <string name="current_email">Current Email:</string>
+    <string name="edit_new_username">Edit new Username</string>
+    <string name="current_username">Current Username:</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="write_here">Write here</string>
+    <string name="send_message">Send Message</string>
+    <string name="welcome_to_roomingai">Welcome to RoomingAI</string>
+    <string name="press_to_edit">Press to Edit</string>
+    <string name="sign_up">Sign up</string>
+
+</resources>

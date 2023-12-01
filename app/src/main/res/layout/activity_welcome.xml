@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_green_light"
+    tools:context=".Activities.WelcomeActivity">
+
+    <TextView
+        android:id="@+id/appNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="@string/rooming_AI_text"
+        android:textAlignment="center"
+        android:textColor="#1B0202"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="152dp"
+        android:layout_height="73dp"
+        android:layout_below="@id/appNameTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="326dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:maxWidth="320dp"
+        android:text="@string/register_text"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="152dp"
+        android:layout_height="73dp"
+        android:layout_below="@id/appNameTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="419dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:maxWidth="320dp"
+        android:textSize="25sp"
+        android:text="@string/login_text" />
+</RelativeLayout>
