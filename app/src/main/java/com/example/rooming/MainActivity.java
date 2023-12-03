@@ -143,7 +143,7 @@ public class MainActivity extends AppCompatActivity {
     void callAPI(String question) {
         //OKHTTP
         messageList.add(new Message("Typing... ", Message.Sent_By_Bot));
-        String apiKey=BuildConfig.OPENAI_API_KEY;
+        String apiKey=BuildConfig.api_Key;
         JSONObject jsonBody = new JSONObject();
         try {
             jsonBody.put("model", "gpt-3.5-turbo");

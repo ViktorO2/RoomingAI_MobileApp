@@ -15,7 +15,7 @@ android {
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         buildTypes.each {
-            it.buildConfigField 'String', 'OPENAI_API_KEY', "\"${project.findProperty('OPENAI_API_KEY')}\""
+            it.buildConfigField 'String', 'api_Key', "\"${project.findProperty('OPENAI_API_KEY')}\""
         }
     }
     buildFeatures {
