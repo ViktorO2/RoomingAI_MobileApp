@@ -23,7 +23,7 @@ Obtain an API key from OpenAI by following their documentation [here](https://pl
   
   Open gradle.properties and replace api_key with your actual OpenAI API key.
 
-### Build and Run:
+## Build and Run
  Build the project using your preferred Java IDE or command line tools.
  Run the application on a mobile device emulator or a physical device.
 
