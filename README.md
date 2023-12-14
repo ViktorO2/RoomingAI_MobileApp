@@ -13,11 +13,11 @@ RoomingAI is a mobile Java application that utilizes the OpenAI API to create a 
 
 To run the RoomingAI mobile app, follow these steps:
 
-## Setup OpenAI API
+### Setup OpenAI API
 
 Obtain an API key from OpenAI by following their documentation [here](https://platform.openai.com/docs/guides/authentication).
 
-## Configure API Key
+### Configure API Key
 
   Open the project and locate the configuration file where the API key needs to be added.
   
@@ -25,6 +25,7 @@ Obtain an API key from OpenAI by following their documentation [here](https://pl
 
 ## Build and Run
  Build the project using your preferred Java IDE or command line tools.
+ 
  Run the application on a mobile device emulator or a physical device.
 
 
